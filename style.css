@@ -4,17 +4,31 @@
 }
 
 body{
-    background-color: #413d3d;
-    color: #ffff;
+    background-color: #111111;
+    color: #00FF00;
+    font-family: 'Inconsolata', monospace;
 }
 
 h1{
     text-align: center;
     padding: 30px;
-    color: #4973e6;
-    font-size: 3em;
+    color: #00FF00;
+    font-size: 3em;   
+}
+
+h1:hover{
+    color: #00FFFF;
 }
 
 .result-style{
-    font-size: 1.7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.result-style p{
+    font-size: 1.4em;
+    color: #00FFFF;
 }
